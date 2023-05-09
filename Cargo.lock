@@ -210,6 +210,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "rpncalc"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "thiserror",
+]
+
+[[package]]
 name = "rustix"
 version = "0.37.19"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -221,15 +230,6 @@ dependencies = [
  "libc",
  "linux-raw-sys",
  "windows-sys",
-]
-
-[[package]]
-name = "samplecli"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "clap",
- "thiserror",
 ]
 
 [[package]]
